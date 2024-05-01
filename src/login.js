@@ -1,9 +1,11 @@
 import React, {useEffect, useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [count, setCount] = useState(0);
+    const navigate = useNavigate();
 
     useEffect(() => {
         console.log(`login clicked: ${count} times`);
@@ -11,9 +13,8 @@ const Login = () => {
     const HandleSubmit = (e) => {
         e.preventDefault();
         // accept all logins for the purposes of the test.
-
+        navigate('/home');
     };
-
     return (
         <div>
             <h2>Login Page</h2>

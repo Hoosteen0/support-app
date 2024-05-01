@@ -1,11 +1,13 @@
 import './App.css';
-import Login from './login.js'
+import Navigation from './navigation.js';
+import {Link} from 'react-router-dom';
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Login/>
+          <Navigation/>
       </header>
     </div>
   );
