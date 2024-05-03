@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
+
+
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -17,6 +19,7 @@ const Login = () => {
     };
     return (
         <div>
+            <h1> Florida Tech Support App</h1>
             <h2>Login Page</h2>
             <form onSubmit={HandleSubmit}>
                 <div>
@@ -25,7 +28,7 @@ const Login = () => {
                 </div>
                 <div>
                     <label>Password:</label>
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 <button type="submit" onClick={() => setCount(count + 1)}>Login</button>
             </form>
