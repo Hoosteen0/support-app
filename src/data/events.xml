@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event>
+    <name>Math Tutoring Session</name>
+    <location>Room 101, Science Building</location>
+    <timeObj>Wednesday</timeObj>
+  </event>
+  <event>
+    <name>Writing Workshop</name>
+    <location>Library, Conference Room A</location>
+    <timeObj>Thursday</timeObj>
+  </event>
+  <event>
+    <name>Chemistry Lab Safety Briefing</name>
+    <location>Room 205, Chemistry Hall</location>
+    <timeObj>Wednesday</timeObj>
+  </event>
+  <event>
+    <name>Study Skills Seminar</name>
+    <location>Student Center, Room 4B</location>
+    <timeObj>Friday</timeObj>
+  </event>
+</events>

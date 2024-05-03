@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Events from './events.js';
 
 const Academic = () => {
     return (
@@ -12,6 +13,7 @@ const Academic = () => {
             <h1>
                 Academic Tab!
             </h1>
+            <Events/>
         </div>
     )
 }
