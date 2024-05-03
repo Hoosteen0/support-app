@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Academic = () => {
+const Social = () => {
     return (
         <div>
             <nav>
@@ -10,10 +10,9 @@ const Academic = () => {
                 </ul>
             </nav>
             <h1>
-                Academic Tab!
+                Social Tab!
             </h1>
         </div>
     )
 }
-export default Academic;
-
+export default Social;
