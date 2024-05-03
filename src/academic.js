@@ -1,12 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import "./Link Styling.css";
 
 const Academic = () => {
     return (
         <div>
             <nav>
                 <ul>
-                    <li><Link to='/home'>Home</Link></li>
+                    <li class = "nav"><Link to='/home'>Home</Link></li>
                 </ul>
             </nav>
             <h1>
